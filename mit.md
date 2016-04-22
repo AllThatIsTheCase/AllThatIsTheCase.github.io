@@ -61,7 +61,7 @@ some citation styles *demand* that they are able to do this -- some styles deman
 > IEE proceedings
 
 and the MIT "solution" prevents this. You only want to protect those exact *parts* that you want to exclude from this
-process, and guess what: *Zotero already does this* for words containing uppercase letters; in the case of Better BibTeX, it will even do this for letters line `Ñ` . If there are some parts where you want to keep something
+process, and guess what: *Zotero already does this* for words containing uppercase letters; in the case of Better BibTeX, it will even do this for letters like `Ñ` . If there are some parts where you want to keep something
 lowercased regardless of the BibTeX style you chose, you can wrap that part in `<span class="nocase">....</span>` and whatever's between them will be excluded
 from case-changing. This is formally supported in Zotero and will work for BibTeX but also if you're using your
 references in Word/LibreOffice/etc.
