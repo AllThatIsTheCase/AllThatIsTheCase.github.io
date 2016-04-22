@@ -5,7 +5,7 @@ title: What MIT gets wrong about Using Zotero with LaTeX and BibTeX
 
 You're probably here because you visited the mit.edu page on [Zotero at MIT: Zotero with LaTeX and
 BibTeX](http://libguides.mit.edu/c.php?g=176000&p=1159208), and you want to learn about the [Better
-BibTeX](https://github.com/retorquere/zotero-better-bibtex/wiki) that page linked to. If you want to find out what
+BibTeX](https://github.com/retorquere/zotero-better-bibtex/wiki) utility that page linked to. If you want to find out what
 Better BibTeX can do for you, you can visit the
 [documentation](https://github.com/retorquere/zotero-better-bibtex/wiki), but if you just want to download Better BibTeX
 for Zotero, you can find the latest release [here](https://github.com/retorquere/zotero-better-bibtex/releases/latest).
