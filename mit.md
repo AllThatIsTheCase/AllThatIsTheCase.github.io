@@ -38,7 +38,7 @@ properly quoted automatically. This is not something you need or want to by hand
 
 ## How can I override BibTeX capitalization conventions?
 
-Again, the MIT librarians are making unwarranted assumptions here about what Zotero write out *and* are suggesting a
+Again, the MIT librarians are making unwarranted assumptions here about what Zotero writes out *and* are suggesting a
 "solution" that is actually as bad as the problem it sets out to solve. The proper way to prevent
 
 > title={IEE Proceedings}
