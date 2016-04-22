@@ -56,7 +56,7 @@ but rather
 > title=\{\{IEE\} Proceedings\}
 
 The "solution" suggested by the MIT librarians does indeed prevent BibTeX from meddling with your capitalization, except
-some citation styles *demand* that they are able to do this -- some styles demand that that titled would become
+some citation styles *demand* that they are able to do this -- some styles demand that that title would become
 
 > IEE proceedings
 
