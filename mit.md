@@ -47,15 +47,15 @@ to be turned into
 
 > Iee proceedings
 
-when your document is compiled is **not** to encode it as
+when your document is compiled is **not** to encode it as the MIT librarians suggest using
 
 > title="{IEE Proceedings}"
 
-as they suggest, but rather
+but rather
 
 > title=\{\{IEE\} Proceedings\}
 
-The "solution" suggested by the MIT librarians do indeed prevent BibTeX from meddling with your capitalization, except
+The "solution" suggested by the MIT librarians does indeed prevent BibTeX from meddling with your capitalization, except
 some citation styles *demand* that they are able to do this -- some styles demand that that titled would become
 
 > IEE proceedings
