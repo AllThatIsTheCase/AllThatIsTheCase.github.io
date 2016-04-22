@@ -53,7 +53,7 @@ when your document is compiled is **not** to encode it as
 
 as they suggest, but rather
 
-> title={{IEE} Proceedings}
+> title=\{\{IEE\} Proceedings\}
 
 The "solution" suggested by the MIT librarians do indeed prevent BibTeX from meddling with your capitalization, except
 some citation styles *demand* that they are able to do this -- some styles demand that that titled would become
