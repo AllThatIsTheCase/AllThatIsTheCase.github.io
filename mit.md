@@ -72,11 +72,17 @@ process, and guess what: *Zotero already does this* for words containing upperca
 librarians are offering a broken solution to a non-problem.
 
 In the case of Better BibTeX, it will even do this for non-ASCII capital letters like `Ñ`, and it handles a number of
-edge cases that the standard Zotero BibTeX doesn't handle (this is devilishly complex, and I don't fault Zotero for
-opting for a simpler translator). If there are some parts where you want to keep something lowercased regardless of the
+edge cases that the standard Zotero BibTeX doesn't handle (for example when there italics or superscript bits in your
+title -- this is devilishly complex, and I don't fault Zotero for opting for a simpler translator when most references
+don't need these features). If there are some parts where you want to keep something lowercased regardless of the
 BibTeX style you chose, you can wrap that part in `<span class="nocase">....</span>` and whatever's between them will be
 excluded from case-changing. This is formally supported in Zotero and will work for BibTeX but also if you're using your
 references in Word/LibreOffice/etc.
 
-Again, you do not need or want to make this change manually every time you export to BibTeX when Zotero is perfectly
-capable of doing this for you.
+Again, you do not need or want to make this change (manually or otherwise) every time you export to BibTeX when Zotero is perfectly
+capable of doing this for you. The rules governing such are complex, and Better BibTeX will handle the complexity
+on your behalf if you will just let it.
+
+Or maybe you get extra points at MIT for doing references in unnecessarily clunky ways using very old and outdated
+versions of Zotero/Better BibTeX. But in that case I'd suggest jus upgrading Zotero/Better BibTeX and lying to the
+librarians that you did them by hand.
