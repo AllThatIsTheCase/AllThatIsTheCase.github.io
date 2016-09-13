@@ -80,7 +80,7 @@ excluded from case-changing. This is formally supported in Zotero and will work 
 references in Word/LibreOffice/etc.
 
 Again, you do not need or want to make this change (manually or otherwise) every time you export to BibTeX when Zotero is perfectly
-capable of doing this for you. The rules governing such are complex, and Better BibTeX will handle the complexity
+capable of doing this for you. The rules governing such bracing are complex, and Better BibTeX will handle the complexity
 on your behalf if you will just let it.
 
 Or maybe you get extra points at MIT for doing references in unnecessarily clunky ways using very old and outdated
