@@ -84,5 +84,6 @@ capable of doing this for you. The rules governing such are complex, and Better 
 on your behalf if you will just let it.
 
 Or maybe you get extra points at MIT for doing references in unnecessarily clunky ways using very old and outdated
-versions of Zotero/Better BibTeX. But in that case I'd suggest jus upgrading Zotero/Better BibTeX and lying to the
-librarians that you did them by hand.
+versions of Zotero/Better BibTeX. But in that case I'd suggest just upgrading Zotero/Better BibTeX and lying to the
+librarians that you followed their recommendations, and use the extra time so gained to making your killer thesis
+argument even better.
