@@ -26,17 +26,22 @@ instructs.
 ## How can I fix references that had problems formatting special characters?
 
 Not even the standard BibTeX exporter from Zotero makes these entirely basic mistakes anymore, so I have no idea why
-this is still up there. Still, there *are* some LaTeX constructs that Zotero does not export well. Better BibTeX however
-does, and if you ever find an exception, I very much welcome [bug
-reports](https://github.com/retorquere/zotero-better-bibtex/issues) so I can get that corrected. I haven't had bug
-reports like these in ages though. Better BibTeX has quite comprehensive coverage when it comes to translating
-references to correct BibTeX.
+this is still up there. Still, there *are* some LaTeX constructs that Zotero does not export well (although not the ones
+that the MIT page points out -- mostly very esoteric math symbols). Better BibTeX however does, and if you ever find an
+exception, I very much welcome [bug reports](https://github.com/retorquere/zotero-better-bibtex/issues) so I can get
+that corrected. I haven't had bug reports like these in ages though. Better BibTeX has quite comprehensive coverage when
+it comes to translating references to correct BibTeX.
 
 ## How can I make an organization name display correctly?
 
 It doesn't look like the MIT librarians have ever used Zotero. You can toggle author fields in Zotero between two-part
 and single-part names by clicking the icon to the right of the author name. Single-part author names are written out
-properly quoted automatically. This is not something you need or want to by hand.
+properly quoted automatically. This is not something you need or want to by hand. You don't even need Better BibTeX for
+this, or BibTeX at all for all that matter -- single-part names (which are approriate for institutions or authors which
+are only ever referred to by a single name, such as Aristotle) is just supported functionality of Zotero even if you use
+the Word/OpenOffice plugins. To add insult to injury, the unnecesary "fix" proposed by the MIT librarians, to be
+performed manually *every time* you export your references, is actually not a fix at all but a source of problems in its own
+right -- see the next point.
 
 ## How can I override BibTeX capitalization conventions?
 
