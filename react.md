@@ -37,23 +37,23 @@ more than a year later, the best choices are still a lukewarm "maybe". I hate Re
 **Components**:
 
 Basics:
-<input disabled type="checkbox"> dropdownlist / select
-<input disabled type="checkbox"> date picker
-<input disabled type="checkbox"> time picker
-<input disabled type="checkbox"> tab
-<input disabled type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)
-<input disabled type="checkbox"> dialog / modal / pop up window
-<input disabled type="checkbox"> dropdown menu
-<input disabled type="checkbox"> table
-<input disabled type="checkbox"> allows controls (menu etc) in tables
-<input disabled type="checkbox"> responsive
-Extra:
-<input disabled type="checkbox"> loading indicator
-<input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)
-<input disabled type="checkbox"> multi-select
-<input disabled type="checkbox"> chart
-<input disabled type="checkbox"> table with sorting, filtering
-<input disabled type="checkbox"> theme
+<input disabled type="checkbox"> dropdownlist / select  
+<input disabled type="checkbox"> date picker  
+<input disabled type="checkbox"> time picker  
+<input disabled type="checkbox"> tab  
+<input disabled type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)  
+<input disabled type="checkbox"> dialog / modal / pop up window  
+<input disabled type="checkbox"> dropdown menu  
+<input disabled type="checkbox"> table  
+<input disabled type="checkbox"> allows controls (menu etc) in tables  
+<input disabled type="checkbox"> responsive  
+Extra:  
+<input disabled type="checkbox"> loading indicator  
+<input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
+<input disabled type="checkbox"> multi-select  
+<input disabled type="checkbox"> chart  
+<input disabled type="checkbox"> table with sorting, filtering  
+<input disabled type="checkbox"> theme  
 
 **Infrastructure:**
 
