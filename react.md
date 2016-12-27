@@ -70,33 +70,33 @@ Extra:
 
 **Components**:
 
-Basics:<br/>
-<input disabled type="checkbox" checked> dropdownlist / select<br/>
-<input disabled type="checkbox" checked> date picker<br/>
-<input disabled type="checkbox" checked> time picker<br/>
-<input disabled type="checkbox" checked> tab<br/>
-<input disabled type="checkbox" checked> [slide in menu](http://callmenick.com/_development/slide-push-menus/)<br/>
-<input disabled type="checkbox" checked> dialog / modal / pop up window<br/>
-<input disabled type="checkbox" checked> dropdown menu<br/>
-<input disabled type="checkbox" checked> table<br/>
-<input disabled type="checkbox"> allows controls (menu etc) in tables: sort of? Not natively it seems but an [an external component](https://github.com/andela-cdaniel/mui-data-table) seems to do it.<br/>
-<input disabled type="checkbox" checked> responsive<br/>
-Extra:<br/>
-<input disabled type="checkbox" checked> loading indicator<br/>
-<input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)<br/>
-<input disabled type="checkbox"> multi-select<br/>
-<input disabled type="checkbox"> chart<br/>
-<input disabled type="checkbox"> table with sorting, filtering<br/>
-<input disabled type="checkbox"> theme: sort of, but underdocumented and a major overhaul is underway.<br/>
+Basics:  
+<input disabled type="checkbox" checked> dropdownlist / select  
+<input disabled type="checkbox" checked> date picker  
+<input disabled type="checkbox" checked> time picker  
+<input disabled type="checkbox" checked> tab  
+<input disabled type="checkbox" checked> [slide in menu](http://callmenick.com/_development/slide-push-menus/)  
+<input disabled type="checkbox" checked> dialog / modal / pop up window  
+<input disabled type="checkbox" checked> dropdown menu  
+<input disabled type="checkbox" checked> table  
+<input disabled type="checkbox"> allows controls (menu etc) in tables: sort of? Not natively it seems but an [an external component](https://github.com/andela-cdaniel/mui-data-table) seems to do it.  
+<input disabled type="checkbox" checked> responsive  
+Extra:  
+<input disabled type="checkbox" checked> loading indicator  
+<input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
+<input disabled type="checkbox"> multi-select  
+<input disabled type="checkbox"> chart  
+<input disabled type="checkbox"> table with sorting, filtering  
+<input disabled type="checkbox"> theme: sort of, but underdocumented and a major overhaul is underway.  
 
 **Infrastructure:**
 
-<input disabled type="checkbox"> plays nice with react-router
-<input disabled type="checkbox" checked> use ES6 and class syntax
-<input disabled type="checkbox" checked> compatible with React 15.4.0
-<input disabled type="checkbox" checked> actively updated and supported
-<input disabled type="checkbox" checked> should not have bug that broke the whole software reported in GitHub issues
-<input disabled type="checkbox" checked> open source
+<input disabled type="checkbox"> plays nice with react-router  
+<input disabled type="checkbox" checked> use ES6 and class syntax  
+<input disabled type="checkbox" checked> compatible with React 15.4.0  
+<input disabled type="checkbox" checked> actively updated and supported  
+<input disabled type="checkbox" checked> should not have bug that broke the whole software reported in GitHub issues  
+<input disabled type="checkbox" checked> open source  
 
 No idea whether it hates
 react-router. Has some real problems with its internal styling solution which mandated a pretty extensive overhaul, but
