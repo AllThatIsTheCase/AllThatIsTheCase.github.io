@@ -4,7 +4,7 @@ title: React.js
 ---
 
 Ah React.js, how I've come to hate you in the past few months. I now fully understand what the concept of [Javascript
-Fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.yvusnn9n1). To get a React app going you need
+Fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.yvusnn9n1) means. To get a React app going you need
 to assemble a million moving parts each of which of whom barely acknowledge each others existence. Any boilerplate
 project you might find is at least 6 months behind the curve which means it depends on node modules which changed
 incompatibly 5 months ago and 3 times since. If you go with the boilerplate for your UI toolkit, you can rest assured it
@@ -42,11 +42,12 @@ there's no idea currently when that will be done, or how much work it will be to
 
 ### ANTD
 
-allows controls in tables, has datepicker, but unsure about theming (and I like material). It likes material, and
-advocates dva, which is like react-create-app but with strong opinions on combining redux and stuff. Good.  Very few
+allows controls in tables, has datepicker, but unsure about theming (and I like material). It likes react-router, and
+advocates dva, which is like react-create-app but with strong opinions on combining redux and stuff. Good. Very few
 contributors, which is a *major* risk in the volatile javascript world. Table has filter/sort/paging. Theming is
 limited, so the designer who got me pixel-perfect specs is going to be unhappy. And the majority of discussion/docs is
-in Chinese.
+in Chinese, and the UI components default to Chinese. L10n exists but how mine isn't supported and how to add new ones
+is undocumented. Despite all this, it's still one of the two main contenders. This should tell you something.
 
 # What has fallen to the side
 
