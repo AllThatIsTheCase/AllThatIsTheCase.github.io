@@ -32,47 +32,73 @@ toolkits are all about components. Yeah? No.
 (criteria cribbed from [xubuild](https://xubuild.github.io/2015/11/11/compare-react-ui-libraries/). Quick conclusion:
 more than a year later, the best choices are still a lukewarm "maybe". I hate React)
 
-
 # Selection criteria
 
 **Components**:
 
 Basics:
-<input type="checkbox"> dropdownlist / select
-<input type="checkbox"> date picker
-<input type="checkbox"> time picker
-<input type="checkbox"> tab
-<input type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)
-<input type="checkbox"> dialog / modal / pop up window
-<input type="checkbox"> dropdown menu
-<input type="checkbox"> table
-<input type="checkbox"> responsive
+<input disabled type="checkbox"> dropdownlist / select
+<input disabled type="checkbox"> date picker
+<input disabled type="checkbox"> time picker
+<input disabled type="checkbox"> tab
+<input disabled type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)
+<input disabled type="checkbox"> dialog / modal / pop up window
+<input disabled type="checkbox"> dropdown menu
+<input disabled type="checkbox"> table
+<input disabled type="checkbox"> allows controls (menu etc) in tables
+<input disabled type="checkbox"> responsive
 Extra:
-<input type="checkbox"> loading indicator
-<input type="checkbox"> dropdownlist / select with search/filter function (autocomplete)
-<input type="checkbox"> multi-select
-<input type="checkbox"> chart
-<input type="checkbox"> table with sorting, filtering
-<input type="checkbox"> gridster layout
-<input type="checkbox"> theme
+<input disabled type="checkbox"> loading indicator
+<input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)
+<input disabled type="checkbox"> multi-select
+<input disabled type="checkbox"> chart
+<input disabled type="checkbox"> table with sorting, filtering
+<input disabled type="checkbox"> theme
 
 **Infrastructure:**
 
-<input type="checkbox"> tested working for new browsers (Chrome, IE11, IOS)
-<input type="checkbox"> use ES6 and class syntax
-<input type="checkbox"> compatible with React 0.14 (ref)
-<input type="checkbox"> actively updated and supported
-<input type="checkbox"> should not have bug that broke the whole software reported in GitHub issues
-<input type="checkbox"> open source
+<input disabled type="checkbox"> plays nice with react-router
+<input disabled type="checkbox"> use ES6 and class syntax
+<input disabled type="checkbox"> compatible with React 15.4.0
+<input disabled type="checkbox"> actively updated and supported
+<input disabled type="checkbox"> should not have bug that broke the whole software reported in GitHub issues
+<input disabled type="checkbox"> open source
 
-Ugh.
+# The contenders
 
-# What may still be viable contenders
+## Material-UI
 
-### Material-UI
+**Components**:
 
-Has datepicker. Table with controls may or may not need [an external
-component](https://github.com/andela-cdaniel/mui-data-table). But so far still a possibility. No idea whether it hates
+Basics:
+<input disabled type="checkbox" checked> dropdownlist / select
+<input disabled type="checkbox" checked> date picker
+<input disabled type="checkbox" checked> time picker
+<input disabled type="checkbox" checked> tab
+<input disabled type="checkbox" checked> [slide in menu](http://callmenick.com/_development/slide-push-menus/)
+<input disabled type="checkbox" checked> dialog / modal / pop up window
+<input disabled type="checkbox" checked> dropdown menu
+<input disabled type="checkbox" checked> table
+<input disabled type="checkbox"> allows controls (menu etc) in tables: sort of? Not natively it seems but an [an external component](https://github.com/andela-cdaniel/mui-data-table) seems to do it.
+<input disabled type="checkbox" checked> responsive
+Extra:
+<input disabled type="checkbox" checked> loading indicator
+<input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)
+<input disabled type="checkbox"> multi-select
+<input disabled type="checkbox"> chart
+<input disabled type="checkbox"> table with sorting, filtering
+<input disabled type="checkbox"> theme: sort of, but underdocumented and a major overhaul is underway.
+
+**Infrastructure:**
+
+<input disabled type="checkbox"> plays nice with react-router
+<input disabled type="checkbox" checked> use ES6 and class syntax
+<input disabled type="checkbox" checked> compatible with React 15.4.0
+<input disabled type="checkbox" checked> actively updated and supported
+<input disabled type="checkbox" checked> should not have bug that broke the whole software reported in GitHub issues
+<input disabled type="checkbox" checked> open source
+
+No idea whether it hates
 react-router. Has some real problems with its internal styling solution which mandated a pretty extensive overhaul, but
 there's no idea currently when that will be done, or how much work it will be to port to it.
 
