@@ -42,9 +42,13 @@ there's no idea currently when that will be done, or how much work it will be to
 
 ### ANTD
 
-allows controls in tables, has datepicker, but unsure about theming (and I like material). No idea whether it hates
-react-router. Very few contributors, which is a *major* risk in the volatile javascript world. Table has
-filter/sort/paging. Theming is limited, so the designer who got me pixel-perfect specs is going to be unhappy.
+allows controls in tables, has datepicker, but unsure about theming (and I like material). It likes material, and
+advocates dva, which is like react-create-app but with strong opinions on combining redux and stuff. Good.  Very few
+contributors, which is a *major* risk in the volatile javascript world. Table has filter/sort/paging. Theming is
+limited, so the designer who got me pixel-perfect specs is going to be unhappy. And the majority of discussion/docs is
+in Chinese.
+
+# What has fallen to the side
 
 ### Grommet
 
@@ -52,12 +56,17 @@ Has date picker, table allows components, but table has no paging, no search. Th
 project name I've encountered in a long time -- *nearly everything you find on google has to do with little metal
 rings*, regardless of extra search terms you put in.
 
-# What has fallen to the side
-
 ### React-toolbox
 
 Wow, this looks good, and actively maintained. Except that it doesn't like react-router *at all*, and the table
-component can not (realistically) have components like buttons/dropdowns/etc. okbyethen.
+component [can not (realistically) have components](https://github.com/react-toolbox/react-toolbox/issues/963) like
+buttons/dropdowns/etc in cells. Table is not sortable without an [unmerged
+pull request](https://github.com/react-toolbox/react-toolbox/pull/1035). Has a [massive structural
+change](https://github.com/react-toolbox/react-toolbox/pull/666) looming for over 6 months to address such issues with
+unresolved conflicts and no clear indication of how much a client app would have to change. A boilerplate that's
+referenced in the issue that tracks the forever-soon-now release doesn't start.
+
+okbyethen.
 
 ### Semantic-UI
 
