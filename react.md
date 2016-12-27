@@ -38,32 +38,32 @@ more than a year later, the best choices are still a lukewarm "maybe". I hate Re
 Components:
 
 - Basics:
-- [ ] dropdownlist / select
-- [ ] date picker
-- [ ] time picker
-- [ ] tab
-- [ ] [slide in menu](http://callmenick.com/_development/slide-push-menus/)
-- [ ] dialog / modal / pop up window
-- [ ] dropdown menu
-- [ ] table
-- [ ] responsive
+- <input type="checkbox"> dropdownlist / select
+- <input type="checkbox"> date picker
+- <input type="checkbox"> time picker
+- <input type="checkbox"> tab
+- <input type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)
+- <input type="checkbox"> dialog / modal / pop up window
+- <input type="checkbox"> dropdown menu
+- <input type="checkbox"> table
+- <input type="checkbox"> responsive
 - Extra:
-- [ ] loading indicator
-- [ ] dropdownlist / select with search/filter function (autocomplete)
-- [ ] multi-select
-- [ ] chart
-- [ ] table with sorting, filtering
-- [ ] gridster layout
-- [ ] theme
+- <input type="checkbox"> loading indicator
+- <input type="checkbox"> dropdownlist / select with search/filter function (autocomplete)
+- <input type="checkbox"> multi-select
+- <input type="checkbox"> chart
+- <input type="checkbox"> table with sorting, filtering
+- <input type="checkbox"> gridster layout
+- <input type="checkbox"> theme
 
 Infrastructure:
 
-- [ ] tested working for new browsers (Chrome, IE11, IOS)
-- [ ] use ES6 and class syntax
-- [ ] compatible with React 0.14 (ref)
-- [ ] actively updated and supported
-- [ ] should not have bug that broke the whole software reported in GitHub issues
-- [ ] open source
+- <input type="checkbox"> tested working for new browsers (Chrome, IE11, IOS)
+- <input type="checkbox"> use ES6 and class syntax
+- <input type="checkbox"> compatible with React 0.14 (ref)
+- <input type="checkbox"> actively updated and supported
+- <input type="checkbox"> should not have bug that broke the whole software reported in GitHub issues
+- <input type="checkbox"> open source
 
 Ugh.
 
