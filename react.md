@@ -27,7 +27,43 @@ maintain the backend for. So I go with auth0, which makes it all nice and easy a
 Auth0 seems to require react-router, but that seems like a reasonable way to go, so we're off.
 
 Nobody sane wants to do a UI wholly by hand, so I'm picking an UI lib. Should be easy. React is all about components, UI
-toolkits are all about components.
+toolkits are all about components. Yeah? No.
+
+(criteria cribbed from [xubuild](https://xubuild.github.io/2015/11/11/compare-react-ui-libraries/). Quick conclusion:
+more than a year later, the best choices are still a lukewarm "maybe". I hate React)
+
+
+# Selection criteria
+
+Components:
+
+- Basics:
+- [ ] dropdownlist / select
+- [ ] date picker
+- [ ] time picker
+- [ ] tab
+- [ ] [slide in menu](http://callmenick.com/_development/slide-push-menus/)
+- [ ] dialog / modal / pop up window
+- [ ] dropdown menu
+- [ ] table
+- [ ] responsive
+- Extra:
+- [ ] loading indicator
+- [ ] dropdownlist / select with search/filter function (autocomplete)
+- [ ] multi-select
+- [ ] chart
+- [ ] table with sorting, filtering
+- [ ] gridster layout
+- [ ] theme
+
+Infrastructure:
+
+- [ ] tested working for new browsers (Chrome, IE11, IOS)
+- [ ] use ES6 and class syntax
+- [ ] compatible with React 0.14 (ref)
+- [ ] actively updated and supported
+- [ ] should not have bug that broke the whole software reported in GitHub issues
+- [ ] open source
 
 Ugh.
 
@@ -62,7 +98,8 @@ rings*, regardless of extra search terms you put in.
 Wow, this looks good, and actively maintained. Except that it doesn't like react-router *at all*, and the table
 component [can not (realistically) have components](https://github.com/react-toolbox/react-toolbox/issues/963) like
 buttons/dropdowns/etc in cells. Table is not sortable without an [unmerged
-pull request](https://github.com/react-toolbox/react-toolbox/pull/1035). Has a [massive structural
+pull request](https://github.com/react-toolbox/react-toolbox/pull/1035) or an [unreleased external
+component](https://github.com/react-toolbox/react-toolbox/issues/322). Has a [massive structural
 change](https://github.com/react-toolbox/react-toolbox/pull/666) looming for over 6 months to address such issues with
 unresolved conflicts and no clear indication of how much a client app would have to change. A boilerplate that's
 referenced in the issue that tracks the forever-soon-now release doesn't start.
