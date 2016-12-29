@@ -30,7 +30,7 @@ Nobody sane wants to do a UI wholly by hand, so I'm picking an UI lib. Should be
 toolkits are all about components. Yeah? No.
 
 (criteria cribbed from [xubuild](https://xubuild.github.io/2015/11/11/compare-react-ui-libraries/). Quick conclusion:
-more than a year later, the best choices are still a lukewarm "maybe". I hate React)
+more than a year later, the best choices are still a lukewarm "maybe". I hate the React ecosystem)
 
 # Selection criteria
 
@@ -136,8 +136,8 @@ Extra:
 * The majority of discussion/docs is in Chinese, and the UI components default to Chinese. L10n exists but my language isn't supported and how to add new ones
   is undocumented.
 
-Despite all this, it's still one of the two main contenders. This should tell you something about the sad state of
-React.
+Despite all this, it's still one of the two main contenders. This should tell you something about the sad state of the
+React ecosystem.
 
 ## Grommet
 
