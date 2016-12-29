@@ -41,7 +41,6 @@ Basics:
 <input disabled type="checkbox"> date picker  
 <input disabled type="checkbox"> time picker  
 <input disabled type="checkbox"> tab  
-<input disabled type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)  
 <input disabled type="checkbox"> dialog / modal / pop up window  
 <input disabled type="checkbox"> dropdown menu  
 <input disabled type="checkbox"> table  
@@ -50,8 +49,6 @@ Basics:
 Extra:  
 <input disabled type="checkbox"> loading indicator  
 <input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
-<input disabled type="checkbox"> multi-select  
-<input disabled type="checkbox"> chart  
 <input disabled type="checkbox"> table with sorting, filtering  
 <input disabled type="checkbox"> theme  
 
@@ -75,7 +72,6 @@ Basics:
 <input disabled checked type="checkbox"> date picker  
 <input disabled checked type="checkbox"> time picker  
 <input disabled checked type="checkbox"> tab  
-<input disabled checked type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)  
 <input disabled checked type="checkbox"> dialog / modal / pop up window  
 <input disabled checked type="checkbox"> dropdown menu  
 <input disabled checked type="checkbox"> table  
@@ -84,8 +80,6 @@ Basics:
 Extra:  
 <input disabled checked type="checkbox"> loading indicator  
 <input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
-<input disabled type="checkbox"> multi-select  
-<input disabled type="checkbox"> chart  
 <input disabled type="checkbox"> table with sorting, filtering  
 <input disabled type="checkbox"> theme: sort of, but underdocumented and a major overhaul is underway.  
 
@@ -98,10 +92,12 @@ Extra:
 <input disabled checked type="checkbox"> should not have bug that broke the whole software reported in GitHub issues  
 <input disabled checked type="checkbox"> open source  
 
-No idea whether it hates react-router. Has some real problems with its internal styling solution which mandated a pretty extensive overhaul, but
-there's no idea currently when that will be done, or how much work it will be to port to it. Sort of seems to allows
-controls (menu etc) in tables, but not natively it
-seems; an [external component](https://github.com/andela-cdaniel/mui-data-table) seems to do it.
+* No idea whether it hates react-router.
+* Has some real problems with its internal styling solution which mandated a pretty extensive overhaul, but there's no idea currently when that will be done, or how much work it will be to port to it.
+* Sort of seems to allows controls (menu etc) in tables, but not natively it seems; an [external
+  component](https://github.com/andela-cdaniel/mui-data-table) seems to do it, or otherwise a bunch of [example
+  code](https://github.com/vorlov/material-ui-sortable-table) which runs with errors and a [promise that it will be in MUI in the next release](https://github.com/callemall/material-ui/issues/1352), but no promises or indication when that will drop.
+* Essentially single developer, which is not where you want to be in the fickle JS world.
 
 ## ANTD
 
@@ -112,7 +108,6 @@ Basics:
 <input disabled checked type="checkbox"> date picker  
 <input disabled checked type="checkbox"> time picker  
 <input disabled checked type="checkbox"> tab  
-<input disabled type="checkbox"> [slide in menu](http://callmenick.com/_development/slide-push-menus/)  
 <input disabled checked type="checkbox"> dialog / modal / pop up window  
 <input disabled checked type="checkbox"> dropdown menu  
 <input disabled checked type="checkbox"> table  
@@ -121,7 +116,6 @@ Basics:
 Extra:  
 <input disabled type="checkbox"> loading indicator  
 <input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
-<input disabled type="checkbox"> multi-select  
 <input disabled type="checkbox"> chart  
 <input disabled checked type="checkbox"> table with sorting, filtering  
 <input disabled type="checkbox"> theme: sort of, but underdocumented and a major overhaul is underway.  
@@ -136,33 +130,94 @@ Extra:
 <input disabled checked type="checkbox"> open source  
 
 * Advocates dva, which is like react-create-app but with strong opinions on combining redux and stuff. Good. Documentation
-of dva is in Chinese. Bad.
+  of dva is in Chinese. Bad.
 * Very few contributors, which is a *major* risk in the volatile javascript world.
 * Theming is limited, so the designer who got me pixel-perfect specs is going to be unhappy.
 * The majority of discussion/docs is in Chinese, and the UI components default to Chinese. L10n exists but my language isn't supported and how to add new ones
-is undocumented.
+  is undocumented.
 
 Despite all this, it's still one of the two main contenders. This should tell you something about the sad state of
 React.
 
 ## Grommet
 
-Has date picker, table allows components, but table has no paging, no search. This library has the most frustrating
-project name I've encountered in a long time -- *nearly everything you find on google has to do with little metal
-rings*, regardless of extra search terms you put in.
+**Components**:
+
+Basics:  
+<input disabled checked type="checkbox"> dropdownlist / select  
+<input disabled checked type="checkbox"> date picker  
+<input disabled checked type="checkbox"> time picker  
+<input disabled checked type="checkbox"> tab  
+<input disabled type="checkbox"> dialog / modal / pop up window  
+<input disabled checked type="checkbox"> dropdown menu  
+<input disabled checked type="checkbox"> table  
+<input disabled checked type="checkbox"> allows controls (menu etc) in tables
+  <input disabled checked type="checkbox"> responsive  
+Extra:  
+<input disabled type="checkbox"> loading indicator  
+<input disabled checked type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
+<input disabled checked type="checkbox"> table with sorting, filtering  
+<input disabled type="checkbox"> theme
+  
+**Infrastructure:**
+
+<input disabled type="checkbox"> plays nice with react-router  
+<input disabled checked type="checkbox"> use ES6 and class syntax  
+<input disabled checked type="checkbox"> compatible with React 15.4.0  
+<input disabled checked type="checkbox"> actively updated and supported  
+<input disabled checked type="checkbox"> should not have bug that broke the whole software reported in GitHub issues  
+<input disabled checked type="checkbox"> open source  
+
+Themes are supported but no indication on how to develop them, and it talks of needing tools like
+[Sketch](http://bohemiancoding.com/sketch/), [Illustrator](http://www.adobe.com/products/illustrator.html),
+[Axure](http://www.axure.com) and [Balsamiq](http://www.balsamiq.com). Screw that noise.
+
+This library has the most frustrating project name I've encountered in a long time -- *nearly everything you find on
+google has to do with little metal rings*, regardless of extra search terms you put in.
 
 ## React-toolbox
 
-Wow, this looks good, and actively maintained. Except that it doesn't like react-router *at all*, and the table
-component [can not (realistically) have components](https://github.com/react-toolbox/react-toolbox/issues/963) like
-buttons/dropdowns/etc in cells. Table is not sortable without an [unmerged
-pull request](https://github.com/react-toolbox/react-toolbox/pull/1035) or an [unreleased external
-component](https://github.com/react-toolbox/react-toolbox/issues/322). Has a [massive structural
-change](https://github.com/react-toolbox/react-toolbox/pull/666) looming for over 6 months to address such issues with
-unresolved conflicts and no clear indication of how much a client app would have to change. A boilerplate that's
-referenced in the issue that tracks the forever-soon-now release doesn't start.
+**Components**:
 
-okbyethen.
+Basics:  
+<input disabled checked type="checkbox"> dropdownlist / select  
+<input disabled checked type="checkbox"> date picker  
+<input disabled checked type="checkbox"> time picker  
+<input disabled checked type="checkbox"> tab  
+<input disabled type="checkbox"> dialog / modal / pop up window  
+<input disabled checked type="checkbox"> dropdown menu  
+<input disabled checked type="checkbox"> table  
+<input disabled checked type="checkbox"> allows controls (menu etc) in tables
+  <input disabled checked type="checkbox"> responsive  
+Extra:  
+<input disabled type="checkbox"> loading indicator  
+<input disabled checked type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
+<input disabled checked type="checkbox"> table with sorting, filtering  
+<input disabled type="checkbox"> theme
+  
+**Infrastructure:**
+
+<input disabled type="checkbox"> plays nice with react-router  
+<input disabled checked type="checkbox"> use ES6 and class syntax  
+<input disabled checked type="checkbox"> compatible with React 15.4.0  
+<input disabled checked type="checkbox"> actively updated and supported  
+<input disabled checked type="checkbox"> should not have bug that broke the whole software reported in GitHub issues  
+<input disabled checked type="checkbox"> open source  
+
+Wow, this looks good, and actively maintained. Except that it doesn't like react-router *at all*:
+
+[react-toolbox/react-toolbox#144](https://github.com/react-toolbox/react-toolbox/issues/144)
+[react-toolbox/react-toolbox#851](https://github.com/react-toolbox/react-toolbox/issues/851)
+[react-toolbox/react-toolbox#855](https://github.com/react-toolbox/react-toolbox/issues/855)
+[react-toolbox/react-toolbox#984](https://github.com/react-toolbox/react-toolbox/issues/984)
+[react-toolbox/react-toolbox#1059](https://github.com/react-toolbox/react-toolbox/issues/1059)
+
+Table is not sortable without an [unmerged pull request](https://github.com/react-toolbox/react-toolbox/pull/1035) or an [unreleased external
+component](https://github.com/react-toolbox/react-toolbox/issues/322). Has a [massive structural
+change](https://github.com/react-toolbox/react-toolbox/pull/666) looming for over 6 months to address such issues but
+that change has
+unresolved conflicts and no clear indication of how much a client app would have to change. A boilerplate that's
+referenced in the issue that tracks the forever-soon-now release doesn't start. Super.
 
 ## Semantic-UI
 
