@@ -206,11 +206,11 @@ Extra:
 
 Wow, this looks good, and actively maintained. Except that it doesn't like react-router *at all*:
 
-[react-toolbox/react-toolbox#144](https://github.com/react-toolbox/react-toolbox/issues/144)
-[react-toolbox/react-toolbox#851](https://github.com/react-toolbox/react-toolbox/issues/851)
-[react-toolbox/react-toolbox#855](https://github.com/react-toolbox/react-toolbox/issues/855)
-[react-toolbox/react-toolbox#984](https://github.com/react-toolbox/react-toolbox/issues/984)
-[react-toolbox/react-toolbox#1059](https://github.com/react-toolbox/react-toolbox/issues/1059)
+[react-toolbox/react-toolbox#144](https://github.com/react-toolbox/react-toolbox/issues/144)  
+[react-toolbox/react-toolbox#851](https://github.com/react-toolbox/react-toolbox/issues/851)  
+[react-toolbox/react-toolbox#855](https://github.com/react-toolbox/react-toolbox/issues/855)  
+[react-toolbox/react-toolbox#984](https://github.com/react-toolbox/react-toolbox/issues/984)  
+[react-toolbox/react-toolbox#1059](https://github.com/react-toolbox/react-toolbox/issues/1059)  
 
 Table is not sortable without an [unmerged pull request](https://github.com/react-toolbox/react-toolbox/pull/1035) or an [unreleased external
 component](https://github.com/react-toolbox/react-toolbox/issues/322). Has a [massive structural
