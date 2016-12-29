@@ -134,7 +134,7 @@ Extra:
 * Very few contributors, which is a *major* risk in the volatile javascript world.
 * Theming is limited, so the designer who got me pixel-perfect specs is going to be unhappy.
 * The majority of discussion/docs is in Chinese, and the UI components default to Chinese. L10n exists but my language isn't supported and how to add new ones
-  is undocumented.
+  is loosely documented -- in Chinese.
 
 Despite all this, it's still one of the two main contenders. This should tell you something about the sad state of the
 React ecosystem.
