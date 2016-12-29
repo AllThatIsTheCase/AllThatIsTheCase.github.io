@@ -37,20 +37,20 @@ more than a year later, the best choices are still a lukewarm "maybe". I hate Re
 **Components**:
 
 Basics:  
-[ ] dropdownlist / select  
-[ ] date picker  
-[ ] time picker  
-[ ] tab  
-[ ] dialog / modal / pop up window  
-[ ] dropdown menu  
-[ ] table  
-[ ] allows controls (menu etc) in tables  
-[ ] responsive  
+[ ] dropdownlist / select
+[ ] date picker
+[ ] time picker
+[ ] tab
+[ ] dialog / modal / pop up window
+[ ] dropdown menu
+[ ] table
+[ ] allows controls (menu etc) in tables
+[ ] responsive
 Extra:  
-[ ] loading indicator  
-[ ] dropdownlist / select with search/filter function (autocomplete)  
-[ ] table with sorting, filtering  
-[ ] theme  
+[ ] loading indicator
+[ ] dropdownlist / select with search/filter function (autocomplete)
+[ ] table with sorting, filtering
+[ ] theme
 
 **Infrastructure:**
 
@@ -68,29 +68,29 @@ Extra:
 **Components**:
 
 Basics:  
-[x] dropdownlist / select  
-[x] date picker  
-[x] time picker  
-[x] tab  
-[x] dialog / modal / pop up window  
-[x] dropdown menu  
-[x] table  
+[x] dropdownlist / select
+[x] date picker
+[x] time picker
+[x] tab
+[x] dialog / modal / pop up window
+[x] dropdown menu
+[x] table
 [ ] allows controls (menu etc) in tables
-[x] responsive  
+[x] responsive
 Extra:  
-[x] loading indicator  
-[ ] dropdownlist / select with search/filter function (autocomplete)  
-[ ] table with sorting, filtering  
-[ ] theme: sort of, but underdocumented and a major overhaul is underway.  
+[x] loading indicator
+[ ] dropdownlist / select with search/filter function (autocomplete)
+[ ] table with sorting, filtering
+[ ] theme: sort of, but underdocumented and a major overhaul is underway.
 
 **Infrastructure:**
 
-[ ] plays nice with react-router  
-[x] use ES6 and class syntax  
-[x] compatible with React 15.4.0  
-[x] actively updated and supported  
-[x] should not have bug that broke the whole software reported in GitHub issues  
-[x] open source  
+[ ] plays nice with react-router
+[x] use ES6 and class syntax
+[x] compatible with React 15.4.0
+[x] actively updated and supported
+[x] should not have bug that broke the whole software reported in GitHub issues
+[x] open source
 
 * No idea whether it hates react-router.
 * Has some real problems with its internal styling solution which mandated a pretty extensive overhaul, but there's no idea currently when that will be done, or how much work it will be to port to it.
@@ -104,30 +104,30 @@ Extra:
 **Components**:
 
 Basics:  
-[x] dropdownlist / select  
-[x] date picker  
-[x] time picker  
-[x] tab  
-[x] dialog / modal / pop up window  
-[x] dropdown menu  
-[x] table  
+[x] dropdownlist / select
+[x] date picker
+[x] time picker
+[x] tab
+[x] dialog / modal / pop up window
+[x] dropdown menu
+[x] table
 [x] allows controls (menu etc) in tables
-[ ] responsive  
+[ ] responsive
 Extra:  
-[ ] loading indicator  
-[ ] dropdownlist / select with search/filter function (autocomplete)  
-[ ] chart  
-[x] table with sorting, filtering  
-[ ] theme: sort of, but underdocumented and a major overhaul is underway.  
+[ ] loading indicator
+[ ] dropdownlist / select with search/filter function (autocomplete)
+[ ] chart
+[x] table with sorting, filtering
+[ ] theme: sort of, but underdocumented and a major overhaul is underway.
 
 **Infrastructure:**
 
-[x] plays nice with react-router  
-[x] use ES6 and class syntax  
-[x] compatible with React 15.4.0  
-[x] actively updated and supported  
-[x] should not have bug that broke the whole software reported in GitHub issues  
-[x] open source  
+[x] plays nice with react-router
+[x] use ES6 and class syntax
+[x] compatible with React 15.4.0
+[x] actively updated and supported
+[x] should not have bug that broke the whole software reported in GitHub issues
+[x] open source
 
 * Advocates dva, which is like react-create-app but with strong opinions on combining redux and stuff. Good. Documentation
   of dva is in Chinese. Bad.
@@ -144,29 +144,29 @@ React.
 **Components**:
 
 Basics:  
-[x] dropdownlist / select  
-[x] date picker  
-[x] time picker  
-[x] tab  
-[ ] dialog / modal / pop up window  
-[x] dropdown menu  
-[x] table  
+[x] dropdownlist / select
+[x] date picker
+[x] time picker
+[x] tab
+[ ] dialog / modal / pop up window
+[x] dropdown menu
+[x] table
 [x] allows controls (menu etc) in tables
-[x] responsive  
+[x] responsive
 Extra:  
-[ ] loading indicator  
-[x] dropdownlist / select with search/filter function (autocomplete)  
-[x] table with sorting, filtering  
+[ ] loading indicator
+[x] dropdownlist / select with search/filter function (autocomplete)
+[x] table with sorting, filtering
 [ ] theme
 
 **Infrastructure:**
 
-[ ] plays nice with react-router  
-[x] use ES6 and class syntax  
-[x] compatible with React 15.4.0  
-[x] actively updated and supported  
-[x] should not have bug that broke the whole software reported in GitHub issues  
-[x] open source  
+[ ] plays nice with react-router
+[x] use ES6 and class syntax
+[x] compatible with React 15.4.0
+[x] actively updated and supported
+[x] should not have bug that broke the whole software reported in GitHub issues
+[x] open source
 
 Themes are supported but no indication on how to develop them, and it talks of needing tools like
 [Sketch](http://bohemiancoding.com/sketch/), [Illustrator](http://www.adobe.com/products/illustrator.html),
@@ -180,29 +180,29 @@ google has to do with little metal rings*, regardless of extra search terms you 
 **Components**:
 
 Basics:  
-[x] dropdownlist / select  
-[x] date picker  
-[x] time picker  
-[x] tab  
-[ ] dialog / modal / pop up window  
-[x] dropdown menu  
-[x] table  
+[x] dropdownlist / select
+[x] date picker
+[x] time picker
+[x] tab
+[ ] dialog / modal / pop up window
+[x] dropdown menu
+[x] table
 [x] allows controls (menu etc) in tables
-[x] responsive  
+[x] responsive
 Extra:  
-[ ] loading indicator  
-[x] dropdownlist / select with search/filter function (autocomplete)  
-[x] table with sorting, filtering  
+[ ] loading indicator
+[x] dropdownlist / select with search/filter function (autocomplete)
+[x] table with sorting, filtering
 [ ] theme
 
 **Infrastructure:**
 
-[ ] plays nice with react-router  
-[x] use ES6 and class syntax  
-[x] compatible with React 15.4.0  
-[x] actively updated and supported  
-[x] should not have bug that broke the whole software reported in GitHub issues  
-[x] open source  
+[ ] plays nice with react-router
+[x] use ES6 and class syntax
+[x] compatible with React 15.4.0
+[x] actively updated and supported
+[x] should not have bug that broke the whole software reported in GitHub issues
+[x] open source
 
 Wow, this looks good, and actively maintained. Except that it doesn't like react-router *at all*:
 

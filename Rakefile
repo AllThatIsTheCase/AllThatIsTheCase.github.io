@@ -6,7 +6,7 @@ rule '.md' => '.mdt' do |t|
     open(t.name, 'w'){|md|
       IO.readlines(t.source).each{|line|
         line = line.gsub('[ ]', '<input disabled type="checkbox">').gsub(/\[x\]/i, '<input disabled checked type="checkbox">')
-        line += '  ' if line =~ /"checkbox"/ && line !~ /  $/
+        line.sub!(/\n$/, "  \n") if line =~ /"checkbox"/ && line !~ /  \n$/
         md.write(line)
       }
     }

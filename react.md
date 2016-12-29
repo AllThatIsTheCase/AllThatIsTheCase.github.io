@@ -54,13 +54,13 @@ Extra:
 
 **Infrastructure:**
 
-<input disabled type="checkbox"> plays nice with react-router
-  <input disabled type="checkbox"> use ES6 and class syntax
-  <input disabled type="checkbox"> compatible with React 15.4.0
-  <input disabled type="checkbox"> actively updated and supported
-  <input disabled type="checkbox"> should not have bug that broke the whole software reported in GitHub issues
-  <input disabled type="checkbox"> open source
-  
+<input disabled type="checkbox"> plays nice with react-router  
+<input disabled type="checkbox"> use ES6 and class syntax  
+<input disabled type="checkbox"> compatible with React 15.4.0  
+<input disabled type="checkbox"> actively updated and supported  
+<input disabled type="checkbox"> should not have bug that broke the whole software reported in GitHub issues  
+<input disabled type="checkbox"> open source  
+
 # The contenders
 
 ## Material-UI
@@ -75,8 +75,8 @@ Basics:
 <input disabled checked type="checkbox"> dialog / modal / pop up window  
 <input disabled checked type="checkbox"> dropdown menu  
 <input disabled checked type="checkbox"> table  
-<input disabled type="checkbox"> allows controls (menu etc) in tables
-  <input disabled checked type="checkbox"> responsive  
+<input disabled type="checkbox"> allows controls (menu etc) in tables  
+<input disabled checked type="checkbox"> responsive  
 Extra:  
 <input disabled checked type="checkbox"> loading indicator  
 <input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
@@ -111,8 +111,8 @@ Basics:
 <input disabled checked type="checkbox"> dialog / modal / pop up window  
 <input disabled checked type="checkbox"> dropdown menu  
 <input disabled checked type="checkbox"> table  
-<input disabled checked type="checkbox"> allows controls (menu etc) in tables
-  <input disabled type="checkbox"> responsive  
+<input disabled checked type="checkbox"> allows controls (menu etc) in tables  
+<input disabled type="checkbox"> responsive  
 Extra:  
 <input disabled type="checkbox"> loading indicator  
 <input disabled type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
@@ -151,14 +151,14 @@ Basics:
 <input disabled type="checkbox"> dialog / modal / pop up window  
 <input disabled checked type="checkbox"> dropdown menu  
 <input disabled checked type="checkbox"> table  
-<input disabled checked type="checkbox"> allows controls (menu etc) in tables
-  <input disabled checked type="checkbox"> responsive  
+<input disabled checked type="checkbox"> allows controls (menu etc) in tables  
+<input disabled checked type="checkbox"> responsive  
 Extra:  
 <input disabled type="checkbox"> loading indicator  
 <input disabled checked type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
 <input disabled checked type="checkbox"> table with sorting, filtering  
-<input disabled type="checkbox"> theme
-  
+<input disabled type="checkbox"> theme  
+
 **Infrastructure:**
 
 <input disabled type="checkbox"> plays nice with react-router  
@@ -187,14 +187,14 @@ Basics:
 <input disabled type="checkbox"> dialog / modal / pop up window  
 <input disabled checked type="checkbox"> dropdown menu  
 <input disabled checked type="checkbox"> table  
-<input disabled checked type="checkbox"> allows controls (menu etc) in tables
-  <input disabled checked type="checkbox"> responsive  
+<input disabled checked type="checkbox"> allows controls (menu etc) in tables  
+<input disabled checked type="checkbox"> responsive  
 Extra:  
 <input disabled type="checkbox"> loading indicator  
 <input disabled checked type="checkbox"> dropdownlist / select with search/filter function (autocomplete)  
 <input disabled checked type="checkbox"> table with sorting, filtering  
-<input disabled type="checkbox"> theme
-  
+<input disabled type="checkbox"> theme  
+
 **Infrastructure:**
 
 <input disabled type="checkbox"> plays nice with react-router  
