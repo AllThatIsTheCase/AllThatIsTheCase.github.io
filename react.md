@@ -236,3 +236,18 @@ reasonably consistently.
 * [Foundation](http://webrafter.com/opensource/react-foundation-apps): is just UI layout, like Bootstrap. Useless.
 * [MUIcss](https://www.muicss.com/docs/v1/react/introduction): no datepicker
 
+# Angular to the rescue?
+
+So let's give angular a shot. 5-6 weeks in and React is actively (pun intended) trying to get me depressed and doing a
+damn good job of it. At least Angular is supposed to be opinionated and full-stack, right?
+
+**GODDAMN WRONG**
+
+Angular works just fine. I'm following the tutorial and while there's an amount of magic going on under the hood that
+scares even a Roby on Rails dev, at least things are *working*, **30 minutes into the tutorial**. Yay!
+
+Except... hey, this is the tutorial for Angular 2. Hmm, I don't suppose that... nope, angular-material is Angular 1
+only. OK, whatever, Angular 1 it is. Oh, Angular 1 is *nothing like* Angular 2? Uh, that doesn't bode well. And sure,
+angular-2-material exists... sort of, but horribly incomplete. But hey, look what I just found! Mean.io promises an
+opinionated *full-stack* framework! And there's even an mean-material! Which, of course, doesn't work, and requires
+conflicting versions of packages. It's DLL-hell all over again.
