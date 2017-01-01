@@ -251,3 +251,17 @@ only. OK, whatever, Angular 1 it is. Oh, Angular 1 is *nothing like* Angular 2? 
 angular-2-material exists... sort of, but horribly incomplete. But hey, look what I just found! Mean.io promises an
 opinionated *full-stack* framework! And there's even an mean-material! Which, of course, doesn't work, and requires
 conflicting versions of packages. It's DLL-hell all over again.
+
+So mean.io is behind the curve on angular (the default setup includes it but it just plain doesn't work), so I was going
+to try mean.js, but [of course](https://github.com/meanjs/mean/issues/369), they don't support material either. WTF
+everybody?
+
+generator-angular-material-fullstack is another good MEAN option, right? [wrong](https://github.com/sincraianul/generator-angular-material-fullstack/issues/15)
+
+And of course angular-material has [problems with the modern web](https://material.angularjs.org/latest/getting-started):
+
+> Unsupported Integrations
+>
+> Angular Material v1.0 has known integration issues with the following libraries:
+>
+> ngTouch - ngMaterial conflicts with ngTouch for click, tap, and swipe support on touch-enabled devices.
