@@ -1,12 +1,12 @@
 # Site settings
-title: Always an answer
+title: Retorquere on GitHub
 email: emiliano.heyns@iris-advies.com
 description: > # this means to ignore newlines until "baseurl:"
   Just random thoughts
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://retorquere.github.io" # the base hostname & protocol for your site
-twitter_username: retorequere
-github_username:  retorequere
+twitter_username: retorquere
+github_username:  retorquere
 
 # Build settings
 markdown: kramdown
