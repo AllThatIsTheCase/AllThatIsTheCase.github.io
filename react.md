@@ -244,7 +244,7 @@ damn good job of it. At least Angular is supposed to be opinionated and full-sta
 **GODDAMN WRONG**
 
 Angular works just fine. I'm following the tutorial and while there's an amount of magic going on under the hood that
-scares even a Roby on Rails dev, at least things are *working*, **30 minutes into the tutorial**. Yay!
+scares even a Ruby on Rails dev, at least things are *working*, **30 minutes into the tutorial**. Yay!
 
 Except... hey, this is the tutorial for Angular 2. Hmm, I don't suppose that... nope, angular-material is Angular 1
 only. OK, whatever, Angular 1 it is. Oh, Angular 1 is *nothing like* Angular 2? Uh, that doesn't bode well. And sure,
